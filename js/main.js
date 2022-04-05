@@ -23,3 +23,11 @@ let search_input = document.querySelector('.main-search');
 search_btn.addEventListener('click', function(){
 	search_input.classList.toggle('main-search_active');
 })
+
+
+let burger = document.querySelector('.burger');
+let menu = document.querySelector('.header_nav-bar');
+burger.addEventListener('click', function(){
+	burger.classList.toggle('burger_active');
+   menu.classList.toggle('header_nav-bar_active');
+})
